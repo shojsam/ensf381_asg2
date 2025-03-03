@@ -156,3 +156,65 @@ footer{
     padding: 10px;
     
 }
+
+#attempt_quiz img[alt="Quiz Banner"] {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#attempt_quiz main h2, 
+#attempt_quiz main p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#attempt_quiz main {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 0 250px;
+}
+
+#attempt_quiz input[type="radio"], 
+#attempt_quiz input[type="checkbox"] {
+  margin: 10px 0;
+}
+
+#attempt_quiz label {
+  display: block;
+  background-color: #cacaca;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#attempt_quiz button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#attempt_quiz button:hover {
+  transition: background 0.3s ease;
+}
+
+#attempt_quiz button[type="submit"] {
+  background-color: #D32F2F;
+  color: white;
+}
+
+#attempt_quiz button[type="submit"]:hover {
+  background-color: #821b1b;
+}
+
+#attempt_quiz button:not([type="submit"]) {
+  background-color: lightblue;
+  color: black;
+}
+
+#attempt_quiz button:not([type="submit"]):hover {
+  background-color: darkblue;
+  color: white;
+}
