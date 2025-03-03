@@ -163,18 +163,16 @@ footer{
   border-radius: 10px;
 }
 
-#attempt_quiz main h2, 
-#attempt_quiz main p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-#attempt_quiz main {
+#attempt_quiz main > h2:first-of-type,
+#attempt_quiz main > p:nth-of-type(-n+3) {
   background-color: lightblue;
   padding: 20px;
-  margin: 0 250px;
+  text-align: center;
+  border-radius: 10px;
+  display: block; 
 }
+
+
 
 #attempt_quiz input[type="radio"], 
 #attempt_quiz input[type="checkbox"] {
