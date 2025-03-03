@@ -179,7 +179,34 @@ footer{
 
 
 
+#attempt_quiz button:not([formaction]) {
+  background-color: lightblue;  
+  color: black;                 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 
+#attempt_quiz button:not([formaction]):hover {
+  background-color: darkblue;   
+  color: white;                 
+}
+
+
+#attempt_quiz button[formaction] {
+  background-color: #D32F2F;    
+  color: white;                 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#attempt_quiz button[formaction]:hover {
+  background-color: #821b1b;    }
 
 
 /*-----------------------------------------------------------------------------------*/
