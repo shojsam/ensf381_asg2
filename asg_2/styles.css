@@ -135,6 +135,11 @@ nav a:hover {
   #main_course section.Enrolled table td div button.decline:hover {
     background-color: #821b1b;
   }
+
+  #main_course h2{
+    text-align: center;
+    color: #1e469c
+  }
   
 footer{
     background-color: #004080;
