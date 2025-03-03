@@ -72,7 +72,6 @@ nav a:hover {
   #lgoin_main form button {
     background-color: rgb(10, 150, 10);  
     color: white;
-    
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 10px;
@@ -93,12 +92,21 @@ nav a:hover {
     text-decoration: underline;
   }
   
-  
+  #main_course{
+    text-align: center;
+  }
+
+  #main_course label ,
   #main_course select {
-    background-color: lightyellow;
+    display: inline-block;
+    margin: 10px;
     border-radius: 5px;
     padding: 5px;
+    vertical-align: middle;
   }
+  #main_course select {
+
+  background-color: lightyellow;}
   
   #main_course section.Enrolled table td div {
     text-align: center;
