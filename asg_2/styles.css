@@ -101,6 +101,7 @@ nav a:hover {
   }
   
   #main_course section.Enrolled table td div {
+    text-align: center;
     background-color: #e6f2ff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -135,9 +136,6 @@ nav a:hover {
     background-color: #821b1b;
   }
   
-
-
-
 footer{
     background-color: #004080;
     color: white;
