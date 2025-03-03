@@ -192,8 +192,12 @@ footer{
   text-align: left;
 }
 #question label {
-  display: block;
+  display: inline-block;
   margin: 10px 0;
+}
+#question input[type="radio"],
+#question input[type="checkbox"] {
+  margin-right: 10px;
 }
 #attempt_quiz button {
   display: block;           
