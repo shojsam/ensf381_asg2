@@ -176,6 +176,12 @@ footer{
   color: #1e469c;
 }
 
+#attempt_quiz h3,
+#attempt_quiz p,
+#attempt_quiz button {
+    text-align: center;
+}
+
 #question {
   max-width: 600px;
   margin: 20px auto;
