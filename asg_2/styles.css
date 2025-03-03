@@ -177,10 +177,10 @@ footer{
 }
 
 #attempt_quiz h3,
-#attempt_quiz p,
-#attempt_quiz button {
+#attempt_quiz p {
     text-align: center;
 }
+
 
 #question {
   max-width: 600px;
@@ -194,6 +194,10 @@ footer{
 #question label {
   display: block;
   margin: 10px 0;
+}
+#attempt_quiz button {
+  display: block;           
+  margin: 0 auto;           
 }
 
 
