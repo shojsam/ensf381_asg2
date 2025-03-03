@@ -176,7 +176,19 @@ footer{
   color: #1e469c;
 }
 
-
+#question {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #cacaca; /* Light Gray */
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+#question label {
+  display: block;
+  margin: 10px 0;
+}
 
 
 
